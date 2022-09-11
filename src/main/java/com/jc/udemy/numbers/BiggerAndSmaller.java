@@ -1,4 +1,4 @@
-package src.udemy.numbers;
+package com.jc.udemy.numbers;
 
 public class BiggerAndSmaller {
 

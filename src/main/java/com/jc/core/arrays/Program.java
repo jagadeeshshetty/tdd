@@ -1,4 +1,4 @@
-package src.core.arrays;
+package com.jc.core.arrays;
 
 public class Program {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Program {
         cars[3] = "GM";
 
         // With array(When we know the values).
-        String[] carsNew = { "Toyota", "TATA", "Kia", "GM" };
+        String[] carsNew = {"Toyota", "TATA", "Kia", "GM"};
 
         // Access any single element.
         System.out.println(cars[2]);
