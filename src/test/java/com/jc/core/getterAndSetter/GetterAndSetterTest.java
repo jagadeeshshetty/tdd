@@ -19,25 +19,57 @@ public class GetterAndSetterTest {
 
   @Test
   public void depositOneDollar() {
-    account.setBalance(1);
+    account.deposit(1);
     Assert.assertEquals(1, account.getBalance());
   }
 
   @Test
-  public void depositOneDollarTwice() {
-    account.setBalance(1);
-    account.setBalance(1);
+  public void depositTwoDollar() {
+    account.deposit(2);
     Assert.assertEquals(2, account.getBalance());
+  }
+
+  @Test
+  public void depositOneDollarTwice() {
+    account.deposit(1);
+    account.deposit(1);
+    Assert.assertEquals(2, account.getBalance());
+  }
+
+  @Test
+  public void depositOneAndWithdrawOneDollar() {
+    account.deposit(1);
+    account.withdraw(1);
+    Assert.assertEquals(0, account.getBalance());
+  }
+
+  @Test
+  public void depositTwoAndWithdrawOneDollar() {
+    account.deposit(2);
+    account.withdraw(1);
+    Assert.assertEquals(1, account.getBalance());
+  }
+
+  @Test(expected = IllegalArgumentException.class)
+  public void depositTwoAndWithdrawThreeDollar() {
+    account.deposit(2);
+    account.withdraw(3);
+  }
+
+  @Test
+  public void tryToWithdrawWithZeroBalance() {
+    account.withdraw(1);
+    Assert.assertEquals(0, account.getBalance());
   }
 
   @Test(expected = IllegalArgumentException.class)
   public void balanceShouldNotBeZero() {
-    account.setBalance(0);
+    account.deposit(0);
   }
 
   @Test(expected = IllegalArgumentException.class)
   public void balanceShouldBePositiveNumber() {
-    account.setBalance(-1);
+    account.deposit(-1);
   }
 
 }
