@@ -1,4 +1,4 @@
-package src.udemy.numbers;
+package com.jc.udemy.numbers;
 
 import org.junit.Assert;
 import org.junit.Test;

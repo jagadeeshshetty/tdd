@@ -1,4 +1,4 @@
-package src.fraz;
+package com.jc.fraz;
 
 /**
  * Example:
