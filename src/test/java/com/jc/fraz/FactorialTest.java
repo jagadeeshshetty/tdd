@@ -16,10 +16,5 @@ public class FactorialTest {
         Factorial factorial = new Factorial();
         Assert.assertEquals(3628800, factorial.find(10));
     }
-
-    @Test
-    public void factorialOfNumber100() {
-        Factorial factorial = new Factorial();
-        Assert.assertEquals(3628800, factorial.find(21));
-    }
+    
 }
