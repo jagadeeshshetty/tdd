@@ -40,6 +40,14 @@ jobs:
         if: always()
         run: mvn clean test
         continue-on-error: true
+        
+      - name: ReportGenerator
+        uses: danielpalme/ReportGenerator-GitHub-Action@5
+        with:
+          reports: 'target/my-reports/jacoco.xml'
+          targetdir: 'target/coverage'
+          reporttypes: 'HtmlInline_AzurePipelines;Cobertura;Badges'
+          assemblyfilters: '-xunit*'
       
       - name: Deploy report to Github Pages
         if: always()
@@ -47,5 +55,5 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: 'target/my-reports'
+          PUBLISH_DIR: 'target/coverage'
           
