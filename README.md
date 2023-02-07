@@ -13,7 +13,7 @@ Learning TDD with JAVA Programming.
 
 https://jagadeeshshetty.github.io/tdd/
 
-![](https://www.perfecto.io/sites/default/files/image/2022-08/image-blog-test-driven-data.jpg)
+![](https://marsner.com/wp-content/uploads/test-driven-development-TDD.png)
 
 ## Reference
 
