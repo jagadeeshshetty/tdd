@@ -102,7 +102,7 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           # ReportGenerator report
-          PUBLISH_DIR: 'target/coverage'
+          # PUBLISH_DIR: 'target/coverage'
           # JaCoCo Report
-          # PUBLISH_DIR: 'target/my-reports'
+          PUBLISH_DIR: 'target/my-reports'
           
