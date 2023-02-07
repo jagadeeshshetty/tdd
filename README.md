@@ -5,6 +5,8 @@ Learning TDD with JAVA Programming.
 ![](.github/badges/branches.svg)
 ![](.github/badges/jacoco.svg)
 
+<img src="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png"  width="450" height="300">
+
 ## Checkout and Run
 
 `mvn test`
@@ -13,9 +15,8 @@ Learning TDD with JAVA Programming.
 
 https://jagadeeshshetty.github.io/tdd/
 
-![](https://marsner.com/wp-content/uploads/test-driven-development-TDD.png)
-
 ## Reference
 
 - [What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
-- Tbd
+- [Jacoco Integration](https://github.com/Java-Techie-jt/jacoco-codecoverage)
+
