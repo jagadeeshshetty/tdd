@@ -55,5 +55,6 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: 'target/coverage'
+#           PUBLISH_DIR: 'target/coverage'
+          PUBLISH_DIR: 'target/my-reports'
           
