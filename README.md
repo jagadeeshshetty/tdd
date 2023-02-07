@@ -17,5 +17,5 @@ https://jagadeeshshetty.github.io/tdd/
 
 ## Reference
 
-- ![What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
+- [What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
 - Tbd
