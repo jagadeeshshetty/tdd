@@ -9,7 +9,17 @@ Learning TDD with JAVA Programming.
 
 ## Checkout and Run
 
-`mvn test`
+- Checkout the repo.
+
+  `git clone git@github.com:jagadeeshshetty/tdd.git`
+- Install maven dependencies.
+
+  `mvn install -e`
+- Run the testcases.
+
+  `mvn test`
+- Install the 'Live Server' extension on VSCode IDE.
+- Access `http://localhost:5500/target/my-reports/` link.
 
 ## Test Coverage Report
 
