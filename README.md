@@ -17,7 +17,7 @@ Learning TDD with JAVA Programming.
   `mvn install -e`
 - Run the testcases.
 
-  `mvn test`
+  `mvn clean test`
 - Install the 'Live Server' extension on VSCode IDE.
 - Access `http://localhost:5500/target/my-reports/` link.
 

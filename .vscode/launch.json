@@ -1,0 +1,434 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ArraySort",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.ArraySort",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "ArraySortBuiltin",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.ArraySortBuiltin",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "FindMaxOf3",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.FindMaxOf3",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.LinearSearch",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Watermelon",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.Watermelon",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "ArraysClassMethods",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.ArraysClassMethods",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "CloneArrays",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.CloneArrays",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "CompareArrays",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.CompareArrays",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "CopyAndCompare",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.CopyAndCompare",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "DeclareAssignAccess",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.DeclareAssignAccess",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "DeclareInitialize",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.DeclareInitialize",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "IsNumPresent",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.IsNumPresent",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "MinAndSecondMinSingleLoop",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.MinAndSecondMinSingleLoop",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "On",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.bigO.On",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Empty",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.Empty",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "FizzBuzz",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.FizzBuzz",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "IsPrime",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.IsPrime",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "NumberOfDigits",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.NumberOfDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "PrintPrimeNum",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.PrintPrimeNum",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigits",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.SumOfDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumOfNDigits",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.SumOfNDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumOfRangeOfDigits",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.SumOfRangeOfDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "DefaultParameters",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.functions.DefaultParameters",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "IsPalindrome",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.strings.IsPalindrome",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "StringBuilderBuiltInMethods",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.strings.StringBuilderBuiltInMethods",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "StringBuilderMemAlloc",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.strings.StringBuilderMemAlloc",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "StringsMemAlloc",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.strings.StringsMemAlloc",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "IsNumPowerOfTwo",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.while_loop.IsNumPowerOfTwo",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigitEqToFive",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.while_loop.SumOfDigitEqToFive",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumUntilSingleDigit",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.while_loop.SumUntilSingleDigit",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "ArraysDemo",
+      "request": "launch",
+      "mainClass": "com.jc.aim.ds.ArraysDemo",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "MergeSortedArray88",
+      "request": "launch",
+      "mainClass": "com.jc.aim.leetcode.MergeSortedArray88",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "ArrayVsArrayList",
+      "request": "launch",
+      "mainClass": "com.jc.core.arrays.ArrayVsArrayList",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "CalAvg",
+      "request": "launch",
+      "mainClass": "com.jc.core.arrays.CalAvg",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "com.jc.core.arrays.Demo",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Program",
+      "request": "launch",
+      "mainClass": "com.jc.core.arrays.Program",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "FidMaxNumber",
+      "request": "launch",
+      "mainClass": "com.jc.core.conditions.FidMaxNumber",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.jc.core.constructor.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "CheckedExceptionExample",
+      "request": "launch",
+      "mainClass": "com.jc.core.exceptions.CheckedExceptionExample",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(1)",
+      "request": "launch",
+      "mainClass": "com.jc.core.getterAndSetter.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "MainAnimal",
+      "request": "launch",
+      "mainClass": "com.jc.core.inheritance.MainAnimal",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "For",
+      "request": "launch",
+      "mainClass": "com.jc.core.loops.For",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(2)",
+      "request": "launch",
+      "mainClass": "com.jc.core.packageone.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(3)",
+      "request": "launch",
+      "mainClass": "com.jc.core.packagetwo.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Demo(1)",
+      "request": "launch",
+      "mainClass": "com.jc.core.strings.Demo",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "GetPropertyUser",
+      "request": "launch",
+      "mainClass": "com.jc.core.system.GetPropertyUser",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(4)",
+      "request": "launch",
+      "mainClass": "com.jc.core.types.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(5)",
+      "request": "launch",
+      "mainClass": "com.jc.core.userinput.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "AddDigits",
+      "request": "launch",
+      "mainClass": "com.jc.playground.AddDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "AddDigitsUntilSingleDigit",
+      "request": "launch",
+      "mainClass": "com.jc.playground.AddDigitsUntilSingleDigit",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "AddRangeOfDigits",
+      "request": "launch",
+      "mainClass": "com.jc.playground.AddRangeOfDigits",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.jc.playground.App",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Assignment",
+      "request": "launch",
+      "mainClass": "com.jc.playground.Assignment",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Demo(2)",
+      "request": "launch",
+      "mainClass": "com.jc.playground.Demo",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "FizzBuzzBreak",
+      "request": "launch",
+      "mainClass": "com.jc.playground.FizzBuzzBreak",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "FizzBuzzContinue",
+      "request": "launch",
+      "mainClass": "com.jc.playground.FizzBuzzContinue",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Main(6)",
+      "request": "launch",
+      "mainClass": "com.jc.playground.Main",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SumOfDigitsEqualToK",
+      "request": "launch",
+      "mainClass": "com.jc.playground.SumOfDigitsEqualToK",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "com.jc.playground.Test",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Program(1)",
+      "request": "launch",
+      "mainClass": "com.jc.udemy.numbers.Program",
+      "projectName": "tdd"
+    }
+  ]
+}
