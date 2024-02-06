@@ -34,3 +34,4 @@ Sample
 - [What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
 - [Jacoco Integration](https://github.com/Java-Techie-jt/jacoco-codecoverage)
 - [TestNG Docs](https://testng-docs.readthedocs.io/)
+- [TestNG Assert](https://www.javadoc.io/doc/org.testng/testng/6.8.17/org/testng/Assert.html)
