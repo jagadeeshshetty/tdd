@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>For.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TDD</a> &gt; <a href="index.source.html" class="el_package">com.jc.core.loops</a> &gt; <span class="el_source">For.java</span></div><h1>For.java</h1><pre class="source lang-java linenums">package com.jc.core.loops;
+
+<span class="nc" id="L3">public class For {</span>
+    public static void main(String[] args) {
+        // Learning for loop
+<span class="nc" id="L6">        For forloop = new For();</span>
+<span class="nc" id="L7">        forloop.increment(2);</span>
+<span class="nc" id="L8">        forloop.printOnlyOddNumbers(10);</span>
+<span class="nc" id="L9">        forloop.printNumbersDivisibleBy2and3();</span>
+<span class="nc" id="L10">    }</span>
+
+    private void printNumbersDivisibleBy2and3() {
+<span class="nc bnc" id="L13" title="All 2 branches missed.">        for (int i = 1; i &lt; 200; i++) {</span>
+<span class="nc bnc" id="L14" title="All 4 branches missed.">            if (i % 2 == 0 || i % 3 == 0)</span>
+<span class="nc" id="L15">                System.out.println(i);</span>
+        }
+<span class="nc" id="L17">    }</span>
+
+    private void printOnlyOddNumbers(int tillWhatNumber) {
+<span class="nc bnc" id="L20" title="All 2 branches missed.">        for (int i = 0; i &lt; tillWhatNumber; i++) {</span>
+            // Divide number by 2 and checks reminder. If not 0, it is odd number.
+<span class="nc bnc" id="L22" title="All 2 branches missed.">            if (i % 2 != 0)</span>
+<span class="nc" id="L23">                System.out.println(i);</span>
+        }
+<span class="nc" id="L25">    }</span>
+
+    void increment(int step) {
+        // increment loop with steps
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        for (int i = 0; i &lt;= 10; i = i + step) {</span>
+<span class="nc" id="L30">            System.out.println(i);</span>
+        }
+<span class="nc" id="L32">    }</span>
+
+    void increament() {
+        // increment loop
+<span class="nc bnc" id="L36" title="All 2 branches missed.">        for (int i = 0; i &lt;= 10; i++) {</span>
+<span class="nc" id="L37">            System.out.println(i);</span>
+        }
+<span class="nc" id="L39">    }</span>
+
+    void decrement() {
+        // decrement loop
+<span class="nc bnc" id="L43" title="All 2 branches missed.">        for (int i = 10; i &gt;= 0; i--) {</span>
+<span class="nc" id="L44">            System.out.println(i);</span>
+        }
+<span class="nc" id="L46">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
