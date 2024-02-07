@@ -1,13 +1,13 @@
 package com.jc.aim.algo.strings;
 
 public class ValidPalindrome {
-  // public static void main(String[] args) {
-  // // String s = "A man, a plan, a canal: Panama";
-  // // String s = "race a car";
-  // // String s = " ";
-  // String s = "ab_A";
-  // System.out.println(isPalindrome(s));
-  // }
+  public static void main(String[] args) {
+    // String s = "A man, a plan, a canal: Panama";
+    // String s = "race a car";
+    // String s = " ";
+    String s = "ab_A";
+    System.out.println(isPalindrome(s));
+  }
 
   static boolean isPalindrome(String s) {
     boolean isPalindrome = true;

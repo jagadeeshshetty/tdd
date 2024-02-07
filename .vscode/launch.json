@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ValidPalindrome",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.strings.ValidPalindrome",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
