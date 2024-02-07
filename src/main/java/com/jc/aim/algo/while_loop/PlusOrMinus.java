@@ -18,5 +18,6 @@ public class PlusOrMinus {
 
       testCaseCount--;
     }
+    sc.close();
   }
 }
