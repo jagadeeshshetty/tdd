@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-TDD,com.jc.aim.algo.strings,ValidPalindrome,3,33,0,4,1,10,1,3,1,1
+TDD,com.jc.aim.algo.strings,ValidPalindrome,10,33,0,4,4,10,2,3,2,1
 TDD,com.jc.aim.algo.strings,StringBuilderMemAlloc,40,0,0,0,9,0,3,0,3,0
 TDD,com.jc.aim.algo.strings,StringsMemAlloc,80,0,4,0,12,0,5,0,3,0
 TDD,com.jc.aim.algo.strings,StringBuilderBuiltInMethods,32,0,0,0,8,0,2,0,2,0
@@ -68,5 +68,6 @@ TDD,com.jc.aim.algo,ArraySort,116,0,8,0,21,0,8,0,4,0
 TDD,com.jc.aim.algo,Watermelon,23,0,2,0,7,0,3,0,2,0
 TDD,com.jc.aim.algo,FindMaxOf3,43,0,8,0,12,0,6,0,2,0
 TDD,com.jc.aim.algo.while_loop,SumUntilSingleDigit,50,0,6,0,16,0,6,0,3,0
+TDD,com.jc.aim.algo.while_loop,PlusOrMinus,37,0,4,0,13,0,4,0,2,0
 TDD,com.jc.aim.algo.while_loop,SumOfDigitEqToFive,67,0,10,0,20,0,8,0,3,0
 TDD,com.jc.aim.algo.while_loop,IsNumPowerOfTwo,41,0,6,0,10,0,6,0,3,0
