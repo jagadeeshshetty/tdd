@@ -9,7 +9,17 @@ Learning TDD with JAVA Programming.
 
 ## Checkout and Run
 
-`mvn test`
+- Checkout the repo.
+
+  `git clone git@github.com:jagadeeshshetty/tdd.git`
+- Install maven dependencies.
+
+  `mvn install -e`
+- Run the testcases.
+
+  `mvn clean test`
+- Install the 'Live Server' extension on VSCode IDE.
+- Access `http://localhost:5500/target/my-reports/` link.
 
 ## Test Coverage Report
 
@@ -23,4 +33,5 @@ Sample
 
 - [What is Test Driven Development (TDD)?](https://www.guru99.com/test-driven-development.html)
 - [Jacoco Integration](https://github.com/Java-Techie-jt/jacoco-codecoverage)
-
+- [TestNG Docs](https://testng-docs.readthedocs.io/)
+- [TestNG Assert](https://www.javadoc.io/doc/org.testng/testng/6.8.17/org/testng/Assert.html)
