@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>MinAndSecondMinSingleLoop.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">TDD</a> &gt; <a href="index.source.html" class="el_package">com.jc.aim.algo.arrays</a> &gt; <span class="el_source">MinAndSecondMinSingleLoop.java</span></div><h1>MinAndSecondMinSingleLoop.java</h1><pre class="source lang-java linenums">package com.jc.aim.algo.arrays;
 
-<span class="nc" id="L3">public class MinAndSecondMinSingleLoop {</span>
+import java.util.Scanner;
+
+/**
+ * Input :
+ * 5
+ * 2 4 3 5 6
+ * Output :
+ * 2 3
+ *
+ * Explanation:
+ * 2 and 3 are respectively the smallest
+ * and second smallest elements in the array.
+ */
+<span class="nc" id="L16">public class MinAndSecondMinSingleLoop {</span>
 
   public static void main(String[] args) {
-    // tbd
-<span class="nc" id="L7">  }</span>
+    // Scanner sc = new Scanner(System.in);
+    // int len = sc.nextInt();
+    // int[] arr = new int[len];
+    // for (int index = 0; index &lt; len; index++) {
+    // arr[index] = sc.nextInt();
+    // }
+    // sc.close();
+<span class="nc" id="L26">    int[] arr = { 2, 4, 3, 5, 6 };</span>
+
+<span class="nc bnc" id="L28" title="All 2 branches missed.">    if (arr.length &lt;= 1) {</span>
+<span class="nc" id="L29">      System.out.println(&quot;-1&quot;);</span>
+<span class="nc" id="L30">      return;</span>
+    }
+
+<span class="nc" id="L33">    int min = Integer.MAX_VALUE;</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">    for (int i = 0; i &lt; arr.length; i++) {</span>
+<span class="nc bnc" id="L35" title="All 2 branches missed.">      if (min &gt; arr[i])</span>
+<span class="nc" id="L36">        min = arr[i];</span>
+    }
+<span class="nc" id="L38">    System.out.println(min);</span>
+
+<span class="nc" id="L40">    int secMin = Integer.MAX_VALUE;</span>
+<span class="nc bnc" id="L41" title="All 2 branches missed.">    for (int i = 0; i &lt; arr.length; i++) {</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">      if (arr[i] != min) // Skip the min integer</span>
+<span class="nc bnc" id="L43" title="All 2 branches missed.">        if (arr[i] &lt; secMin)</span>
+<span class="nc" id="L44">          secMin = arr[i];</span>
+    }
+<span class="nc" id="L46">    System.out.println(secMin);</span>
+<span class="nc" id="L47">  }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
