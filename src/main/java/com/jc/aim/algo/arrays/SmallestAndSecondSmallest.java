@@ -13,17 +13,16 @@ import java.util.Scanner;
  * 2 and 3 are respectively the smallest
  * and second smallest elements in the array.
  */
-public class MinAndSecondMinSingleLoop {
+public class SmallestAndSecondSmallest {
 
   public static void main(String[] args) {
-    // Scanner sc = new Scanner(System.in);
-    // int len = sc.nextInt();
-    // int[] arr = new int[len];
-    // for (int index = 0; index < len; index++) {
-    // arr[index] = sc.nextInt();
-    // }
-    // sc.close();
-    int[] arr = { 2, 4, 3, 5, 6 };
+    Scanner sc = new Scanner(System.in);
+    int len = sc.nextInt();
+    int[] arr = new int[len];
+    for (int index = 0; index < len; index++) {
+      arr[index] = sc.nextInt();
+    }
+    sc.close();
 
     if (arr.length <= 1) {
       System.out.println("-1");

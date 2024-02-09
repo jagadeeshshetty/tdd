@@ -6,6 +6,31 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.Hello",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "stopOnEntry": false,
+      "mainClass": "",
+      "args": "",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "SmallestAndSecondSmallest",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.SmallestAndSecondSmallest",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "PlusOrMinus",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.while_loop.PlusOrMinus",
