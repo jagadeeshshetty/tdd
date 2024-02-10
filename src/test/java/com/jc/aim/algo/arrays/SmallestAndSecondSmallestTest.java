@@ -58,7 +58,7 @@ public class SmallestAndSecondSmallestTest {
 			System.setOut(new PrintStream(outputStream));
 
 			// Call the main method of the class
-			SmallestAndSecondSmallest.main(new String[] {});
+			MinAnd2ndMin.main(new String[] {});
 
 			// Assert the output matches the expected output
 			assertEquals(outputStream.toString(), expectedOutput);
