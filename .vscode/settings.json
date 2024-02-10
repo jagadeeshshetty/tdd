@@ -4,8 +4,11 @@
   "java.configuration.updateBuildConfiguration": "automatic",
   "editor.renderLineHighlight": "none",
   "java.compile.nullAnalysis.mode": "automatic",
-  "code-builder.build.inputFilePath": "/home/jc/data/tdd/input.txt",
-  "code-builder.build.outputFilePath": "/home/jc/data/tdd/output.txt",
+  // "code-builder.build.inputFilePath": "/home/jc/data/tdd/input.txt",
+  // "code-builder.build.outputFilePath": "/home/jc/data/tdd/output.txt",
+  "code-builder.build.inputFilePath": "/Users/jc/data/tdd/input.txt",
+  "code-builder.build.outputFilePath": "/Users/jc/data/tdd/output.txt",
+  "code-builder.java.classPath": null,
   "code-builder.build.executorMap": {
     "c": "cd $dir && g++ $fileName $compilerArgs -o $fileNameWithoutExt && ./$fileNameWithoutExt",
     "cpp": "cd $dir && g++ $fileName $compilerArgs -o $fileNameWithoutExt && ./$fileNameWithoutExt",
@@ -16,5 +19,7 @@
     "ruby": "cd $dir && ruby $fileName",
     "go": "cd $dir && go build $fileName && $dir$fileNameWithoutExt",
     "r": "cd $dir && Rscript $fileName",
-    "rust":"cargo run"
-}}
+    "rust": "cargo run"
+  },
+  "code-builder.java.useAutoClassPath": true
+}
