@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MinAnd2ndMinSingleLoop",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.MinAnd2ndMinSingleLoop",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "MinAnd2ndMin",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.arrays.MinAnd2ndMin",
