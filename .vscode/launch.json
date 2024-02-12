@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseArray",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.ReverseArray",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "PrintReverse",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.PrintReverse",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "MinAnd2ndMinSingleLoop",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.arrays.MinAnd2ndMinSingleLoop",
