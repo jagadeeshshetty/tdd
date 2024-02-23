@@ -14,5 +14,10 @@ public class MultiDimensionalArray {
     for (int i = 0; i < arr.length; i++) {
       System.out.println(Arrays.toString(arr[i]));
     }
+
+    int[][] arrDiff = { new int[2], new int[4], new int[3] };
+    for (int i = 0; i < arrDiff.length; i++) {
+      System.out.println(Arrays.toString(arrDiff[i]));
+    }
   }
 }
