@@ -30,5 +30,13 @@ public class MultiDimensionalArray {
       System.out.println();
     }
 
+    // col-wise traverse
+    for (int col = 0; col < arr[0].length; col++) {
+      for (int row = 0; row < arr.length; row++) {
+        System.out.print(arr[row][col] + " ");
+      }
+      System.out.println();
+    }
+
   }
 }
