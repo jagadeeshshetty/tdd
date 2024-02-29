@@ -4,23 +4,34 @@ import java.util.Arrays;
 
 public class InsertionSort {
   public static void main(String[] args) {
-    // int[] arr = { 4, 1, 3, 9, 7 };
-    int[] arr = { 24101381, 24098998, 24098336, 24098337 };
+
+    // Initialize an array
+    int[] arr = { 4, 3, 1, 9, 7 };
+
+    // Print the array before sorting
     System.out.println("Before Sort: " + Arrays.toString(arr));
+
+    // Iterate through the array starting from the second element
     for (int i = 1; i < arr.length; i++) {
-      // target is to accommodate arr[i] to arr[0 ... i-1]
-      // so that it remains sorted.
-      int curNum = arr[i];
+
+      // Save the current element in a variable
+      int key = arr[i];
+
+      // Initialize a variable for comparison
       int j = i - 1;
-      // Find the right place
-      // Keep shifting as well
-      while (j >= 0 && arr[j] > curNum) {
+
+      // Find the correct position for curNum in the sorted part
+      // of the array and shift elements to the right
+      while (j >= 0 && arr[j] > key) {
         arr[j + 1] = arr[j];
         j--;
       }
-      arr[j + 1] = curNum;
+
+      // Insert curNum into the correct position
+      arr[j + 1] = key;
     }
 
+    // Print the array after sorting
     System.out.println("After Sort:  " + Arrays.toString(arr));
   }
 }
