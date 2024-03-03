@@ -1,4 +1,4 @@
-package com.jc.aim.algo.arrays;
+package com.jc.aim.algo.arrays.multi_dimensional;
 
 import java.util.Arrays;
 

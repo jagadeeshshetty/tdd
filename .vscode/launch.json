@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MultiDimensionalArray",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrays.multi_dimensional.MultiDimensionalArray",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "InsertionSort",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.arrays.sorting.InsertionSort",
