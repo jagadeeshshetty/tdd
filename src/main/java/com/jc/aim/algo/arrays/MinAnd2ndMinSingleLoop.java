@@ -17,31 +17,33 @@ public class MinAnd2ndMinSingleLoop {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    int arrLen = sc.nextInt();
-    int[] arr = new int[arrLen];
-    for (int index = 0; index < arrLen; index++) {
-      arr[index] = sc.nextInt();
+    int N = sc.nextInt();
+    int[] arr = new int[N];
+    for (int i = 0; i < N; i++) {
+      arr[i] = sc.nextInt();
     }
     sc.close();
 
     // int[] arr = { 4, 5, 2, 1, 3 };
 
+    // return -1 if only single element in array.
     if (arr.length <= 1) {
       System.out.println(-1);
       return;
     }
 
     int element = arr[0];
-    boolean isIdenticalElement = true;
+    boolean isAllElementsAreSame = true;
 
+    // return -1 if all elements in array are same.
     for (int i : arr) {
       if (i != element) {
-        isIdenticalElement = false;
+        isAllElementsAreSame = false;
         break;
       }
     }
 
-    if (isIdenticalElement) {
+    if (isAllElementsAreSame) {
       System.out.println(-1);
       return;
     }
@@ -50,7 +52,6 @@ public class MinAnd2ndMinSingleLoop {
     int secMin = Integer.MAX_VALUE;
 
     for (int value : arr) {
-
       if (value < min) {
         secMin = min;
         min = value;
