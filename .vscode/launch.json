@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.array_list.Test",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "MultiDimensionalArray",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.arrays.multi_dimensional.MultiDimensionalArray",
