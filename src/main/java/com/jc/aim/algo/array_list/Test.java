@@ -14,6 +14,8 @@ public class Test {
     languages.add("JavaScript");
     languages.add("Python");
     System.out.println("ArrayList: " + languages);
+    languages.add(0, "C");
+    System.out.println("ArrayList: " + languages);
   }
 
 }
