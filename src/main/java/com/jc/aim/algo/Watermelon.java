@@ -11,10 +11,10 @@ public class Watermelon {
     Scanner sc = new Scanner(System.in);
     int w = sc.nextInt();
 
-    if (w % 2 == 0) {
+    if (w % 2 == 0 && w != 2) {
       System.out.println("YES");
     } else {
-      System.out.println("No");
+      System.out.println("NO");
     }
   }
 }

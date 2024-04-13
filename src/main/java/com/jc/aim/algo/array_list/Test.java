@@ -7,13 +7,22 @@ public class Test {
   public static void main(String[] args) {
 
     // create ArrayList
-    ArrayList<String> languages = new ArrayList<>();
+    ArrayList<String> lang = new ArrayList<>();
 
     // Add elements to ArrayList
-    languages.add("Java");
-    languages.add("JavaScript");
-    languages.add("Python");
-    System.out.println("ArrayList: " + languages);
-  }
+    lang.add("Java");
+    lang.add("JavaScript");
+    lang.add("Python");
+    System.out.println(lang + "->" + lang.size());
+
+    lang.add(0, "C");
+    System.out.println(lang + "->" + lang.size());
+
+    lang.remove(0);
+    System.out.println(lang + "->" + lang.size());
+
+    lang.set(0, "C++");
+    System.out.println(lang + "->" + lang.size());
+   }
 
 }

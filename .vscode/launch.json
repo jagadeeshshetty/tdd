@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "UglyNum",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.for_loop.UglyNum",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.array_list.Test",
