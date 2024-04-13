@@ -10,19 +10,10 @@ public class Test {
     ArrayList<String> lang = new ArrayList<>();
 
     // Add elements to ArrayList
-    lang.add("Java");
-    lang.add("JavaScript");
-    lang.add("Python");
-    System.out.println(lang + "->" + lang.size());
-
-    lang.add(0, "C");
-    System.out.println(lang + "->" + lang.size());
-
-    lang.remove(0);
-    System.out.println(lang + "->" + lang.size());
-
-    lang.set(0, "C++");
-    System.out.println(lang + "->" + lang.size());
-   }
+    languages.add("Java");
+    languages.add("JavaScript");
+    languages.add("Python");
+    System.out.println("ArrayList: " + languages);
+  }
 
 }
