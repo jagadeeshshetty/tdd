@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayListCustom",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.array_list.ArrayListCustom",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListExample",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.array_list.ArrayListExample",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "UglyNum",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.for_loop.UglyNum",

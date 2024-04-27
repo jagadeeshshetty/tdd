@@ -7,7 +7,7 @@ public class Test {
   public static void main(String[] args) {
 
     // create ArrayList
-    ArrayList<String> lang = new ArrayList<>();
+    ArrayList<String> languages = new ArrayList<>();
 
     // Add elements to ArrayList
     languages.add("Java");
