@@ -1,6 +1,10 @@
 package com.jc.aim.algo.array_list;
 
 import org.junit.*;
+
+import com.jc.aim.algo.arrayList.ArrayListCustom;
+import com.jc.aim.algo.arrayList.Test;
+
 import static org.junit.Assert.*;
 
 public class ArrayListCustomTest {

@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Run",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrayList.Run",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.search.LinearSearch",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrayList.Test",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "ArrayListCustom",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.array_list.ArrayListCustom",

@@ -1,4 +1,4 @@
-package com.jc.aim.algo.array_list;
+package com.jc.aim.algo.arrayList;
 
 import java.util.ArrayList;
 

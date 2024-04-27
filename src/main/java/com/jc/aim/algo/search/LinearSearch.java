@@ -1,4 +1,4 @@
-package com.jc.aim.algo;
+package com.jc.aim.algo.search;
 
 public class LinearSearch {
 
@@ -24,7 +24,7 @@ public class LinearSearch {
    * returns 1; otherwise, it returns 0 to indicate that the expected number is not
    * present in the array.
    *
-   * @param numbers         The array of integers to search within.
+   * @param numbers         The array of integers to search.
    * @param expectedNumber  The integer to search for in the array.
    * @return                1 if the expected number is found; otherwise, 0.
    */
