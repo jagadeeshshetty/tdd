@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaxConsecutiveOnes",
+      "request": "launch",
+      "mainClass": "com.jc.aim.algo.arrayList.MaxConsecutiveOnes",
+      "projectName": "tdd"
+    },
+    {
+      "type": "java",
       "name": "Run",
       "request": "launch",
       "mainClass": "com.jc.aim.algo.arrayList.Run",
